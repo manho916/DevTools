@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.w-1 {
+    width: 8.33%;
+}
+
+.w-2 {
+    width: 16.66%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.33%;
+}
+
+.w-5 {
+    width: 41.66%;
+}
+
+.w-6 {
+    width: 50%;
+}
+
+.w-7 {
+    width: 58.33%;
+}
+
+.w-8 {
+    width: 66.66%;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+.w-10 {
+    width: 83.33%;
+}
+
+.w-11 {
+    width: 91.66%;
+}
+
+.w-12 {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.mv-auto {
+    margin: auto 0;
+}
+
+.mh-auto {
+    margin: 0 auto;
+}
+
+.content {
+    /* margin-left: 200px; */
+    margin: 20px 20px 20px 220px;
+}
+
+
+/* --------------------------------- button --------------------------------- */
+
+.btn {
+    width: 48px;
+    height: 27px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn_m {
+    width: 72px;
+}
+
+.btn.btn_l {
+    width: 108px;
+}
+
+.btn.grey {
+    color: grey;
+    border-color: grey;
+    cursor: unset;
+}
+
+
+/* ------------------------------- action bar ------------------------------- */
+
+.action-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.action-left,
+.action-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.action-left .btn {
+    margin-right: 10px;
+}
+
+.action-right .btn {
+    margin-left: 10px;
+}
+
+.search-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    /* padding: 5px; */
+}
+
+.search-table-header {
+    width: 100%;
+    height: 30px;
+    /* padding-left: 10px; */
+    border: 1px solid #70161e;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-table-content {
+    width: 100%;
+    border: 1px solid #70161e;
+    display: none;
+    /* visibility: hidden; */
+    /* padding: 10px; */
+}
+
+.search-table-content-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 30px;
+    align-items: flex-start;
+}
+
+.search-table-content-item {
+    text-align: left;
+    padding: 0 10px;
+}
